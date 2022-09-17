@@ -10,4 +10,8 @@ bot.on("message", (msg) => {
   if (msg.text == "Привет") {
     bot.sendMessage(id, `Привет ${userName}`);
   }
+  
+  if (msg.text == "/order") {
+    bot.sendMessage(id, "Зайдите на сайт: https://uxpros.tilda.ws");
+  }
 });
